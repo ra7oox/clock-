@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+
+    margin: 0px;
+}
+
+#div{
+    display: flex;
+    flex-direction: column;
+    
+    border: 2px solid gray;
+    width: 100%;
+    padding: 25px;
+    align-items: center;
+    
+}
+.time{
+    display: flex;
+}
+.date{
+    display: flex;
+    gap: 10px;
+}
+#hour,#min{
+    font-size: 60px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    align-items: center;
+}
