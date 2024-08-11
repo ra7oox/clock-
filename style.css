@@ -4,12 +4,17 @@
 
     margin: 0px;
 }
+body{
+    background-image: url(./IMG/BACK.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 
 #div{
     display: flex;
     flex-direction: column;
     
-    border: 2px solid gray;
     width: 100%;
     padding: 25px;
     align-items: center;
@@ -23,14 +28,14 @@
     gap: 10px;
 }
 #hour,#min{
-    font-size: 60px;
+    font-size: 80px;
 }
 section{
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%);
     align-items: center;
 }
